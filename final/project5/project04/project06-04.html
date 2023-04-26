@@ -6,8 +6,8 @@
       Chapter 6
       Hands-on Project 6-4
 
-      Author: 
-      Date:   
+      Author: Lillian Sones
+      Date:   04/24/2023 
 
       Filename: project06-04.html
    -->
@@ -15,6 +15,7 @@
    <meta name="viewport" content="width=device-width,initial-scale=1.0">
    <title>Hands-on Project 6-4</title>
    <link rel="stylesheet" href="styles.css" />
+   <script src="project06-04.js" defer></script>
 </head>
 
 <body>
@@ -22,12 +23,33 @@
       <h1>
          Hands-on Project 6-4
       </h1>
-      <p><a href="https://sonescoding.github.io/ClientSideFinal">Home</a></p>
    </header>
 
    <article>
       <h1>Select Your Vehicle</h1>
       <form>
+         <fieldset>
+            <legend>Year</legend>
+            <select id="year" size="4">
+               <option>Select Make</option>
+               <option>2010</option>
+               <option>2011</option>
+               <option>2012</option>
+               <option>2013</option>
+               <option>2014</option>
+               <option>2015</option>
+               <option>2016</option>
+               <option>2017</option>
+               <option>2018</option>
+               <option>2019</option>
+               <option>2020</option>
+               <option>2021</option>
+               <option>2022</option>
+               <option>2023</option>
+               <option>2024</option>
+                        
+            </select>            
+         </fieldset>
          <fieldset>
             <legend>Make</legend>
             <select id="make" size="4">
@@ -127,6 +149,9 @@
         
       </form>
       <p id="vehicle"></p>
-   </article>      
+   </article>    
+   <div>
+      <p><a href="https://sonescoding.github.io/ClientSideFinal">Final Homepage</a></p>
+   </div>  
 </body>
 </html>
